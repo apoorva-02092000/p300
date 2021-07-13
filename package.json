@@ -1,0 +1,30 @@
+{
+  "name": "myp300",
+  "version": "1.0.0",
+  "description": "Test Description",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"test\"",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apoorva-02092000/p300.git"
+  },
+  "keywords": [
+    "myp300"
+  ],
+  "author": "Team1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apoorva-02092000/p300/issues"
+  },
+  "homepage": "https://github.com/apoorva-02092000/p300#readme",
+  "engines": {
+    "node": "14.x"
+  }
+}
