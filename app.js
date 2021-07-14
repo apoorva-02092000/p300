@@ -4,11 +4,10 @@ console.log("test")
 
 app.use(express.static('public'));
 app.use(express.static('javas'));
-app.use(express.static(__dirname+"/client/build"));
 
 app.get('/', (req, res) => {
   res.render('index.ejs');
 });
 
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
